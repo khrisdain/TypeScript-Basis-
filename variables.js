@@ -7,13 +7,16 @@
 // userId.toFixed
 // //Boolean
 // let isLoggedIn: boolean = false
-// function addTwo(num) {
-//     return num + 2;
-// }
-// console.log(addTwo(5));
-
+function addTwo(num) {
+    return num + 2;
+}
+console.log(addTwo(5));
 function getUpper(val) {
     val.toUpperCase();
 }
-let res = getUpper("olanrewaju");
-console.log(res)
+getUpper("olanrewaju");
+function signUpUser(name, email, password) {
+    return signUpUser(name);
+}
+;
+signUpUser('olamide', 'joseph14@gmail.com', 'olamide16');
