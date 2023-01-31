@@ -25,3 +25,16 @@ function getUpper(val: string){
 }
 
 getUpper("olanrewaju")
+
+function signUpUser(name: string, email: string, password: string){
+    return signUpUser(name); 
+};
+
+signUpUser('olamide', 'joseph14@gmail.com', 'olamide16');
+
+
+function logInUser(name: string, isLogin: boolean, email: null){
+    return isLogin;
+}
+
+logInUser();
