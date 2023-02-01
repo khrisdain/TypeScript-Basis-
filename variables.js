@@ -20,3 +20,7 @@ function signUpUser(name, email, password) {
 }
 ;
 signUpUser('olamide', 'joseph14@gmail.com', 'olamide16');
+function logInUser(name, isLogin, email) {
+    return isLogin;
+}
+logInUser();
