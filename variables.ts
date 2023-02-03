@@ -14,27 +14,33 @@
     // //Boolean
     // let isLoggedIn: boolean = false
 
-function addTwo(num: number){
-    return num + 2
+// function addTwo(num: number){
+//     return num + 2
+// }
+
+// console.log(addTwo(5))
+
+// function getUpper(val: string){
+//     val.toUpperCase()
+// }
+
+// getUpper("olanrewaju")
+
+// function signUpUser(name: string, email: string, password: string){
+//     return signUpUser(name); 
+// };
+
+// signUpUser('olamide', 'joseph14@gmail.com', 'olamide16');
+
+
+// function logInUser(name: string, isLogin: boolean, email: null){
+//     return isLogin;
+// }
+
+// logInUser();
+
+var loginUser = (name: string, email: string, isLogin: Boolean = false) => { //after annotation default values can be set
+    return isLogin
 }
 
-console.log(addTwo(5))
-
-function getUpper(val: string){
-    val.toUpperCase()
-}
-
-getUpper("olanrewaju")
-
-function signUpUser(name: string, email: string, password: string){
-    return signUpUser(name); 
-};
-
-signUpUser('olamide', 'joseph14@gmail.com', 'olamide16');
-
-
-function logInUser(name: string, isLogin: boolean, email: null){
-    return isLogin;
-}
-
-logInUser();
+loginUser("samuel", "s@gmail.com",)
