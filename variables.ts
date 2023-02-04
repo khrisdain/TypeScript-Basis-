@@ -1,12 +1,20 @@
-const getHello = (s: string): string => {
-    return ""
+// const getHello = (s: string): string => {
+//     return ""
+// }
+
+// const heroes = [ "thor", "spiderman", "ironman"]
+
+// heroes.map((hero) => {
+//     return `Hero is ${hero}`
+// })
+
+// console.log(heroes)
+// export {}
+
+type User = {
+    name: string,
+    emai: string,
+    isLogin: boolean
 }
 
-const heroes = [ "thor", "spiderman", "ironman"]
-
-heroes.map((hero) => {
-    return `Hero is ${hero}`
-})
-
-console.log(heroes)
-export {}
+function createUser( user: User){}
