@@ -13,8 +13,11 @@
 
 type User = {
     name: string,
-    emai: string,
+    email: string,
     isLogin: boolean
 }
 
+
 function createUser( user: User){}
+
+createUser({ name: "", email: "", isLogin: false})
