@@ -1,5 +1,19 @@
 // const getHello = (s: string): string => {
 //     return ""
 // }
-function createUser(user) { }
-createUser({ name: "", email: "", isLogin: false });
+// const heroes = [ "thor", "spiderman", "ironman"]
+// // heroes.map((hero) => {
+// //     return `Hero is ${hero}`
+// // })
+// // console.log(heroes)
+// // export {}
+// type User = {
+//     name: string,
+//     email: string,
+//     isLogin: boolean
+// }
+// function createUser( user: User){}
+// createUser({ name: "", email: "", isLogin: false})
+function ConsoleError(errmsg) {
+    console.log(errmsg);
+}

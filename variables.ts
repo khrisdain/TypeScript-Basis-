@@ -4,20 +4,24 @@
 
 // const heroes = [ "thor", "spiderman", "ironman"]
 
-// heroes.map((hero) => {
-//     return `Hero is ${hero}`
-// })
+// // heroes.map((hero) => {
+// //     return `Hero is ${hero}`
+// // })
 
-// console.log(heroes)
-// export {}
+// // console.log(heroes)
+// // export {}
 
-type User = {
-    name: string,
-    email: string,
-    isLogin: boolean
+// type User = {
+//     name: string,
+//     email: string,
+//     isLogin: boolean
+// }
+
+
+// function createUser( user: User){}
+
+// createUser({ name: "", email: "", isLogin: false})
+
+function ConsoleError(errmsg: string) : void{
+    console.log(errmsg)
 }
-
-
-function createUser( user: User){}
-
-createUser({ name: "", email: "", isLogin: false})
